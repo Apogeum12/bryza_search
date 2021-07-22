@@ -94,6 +94,7 @@ const App = () => {
           </Fragment>
           {visibleResult? (<IconButton onClick={()=>destroyResult()}>X</IconButton>): null }
         </AppContainer>
+        {/* Here add weater Appi */}
       </BlurFiltr>
     </AppMain>
   )
